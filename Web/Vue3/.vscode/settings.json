@@ -1,0 +1,64 @@
+{
+	"editor.fontSize": 16,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true, //optional
+	"editor.formatOnPaste": false, // required
+	"editor.tabSize": 2,
+	"editor.formatOnType": false, // required
+	"editor.autoIndent": "advanced",
+	"editor.indentSize": "tabSize",
+	"editor.formatOnSaveMode": "file", // required to format on save
+	"editor.inlayHints.enabled": "on",
+	"editor.autoClosingBrackets": "always",
+	"editor.autoClosingQuotes": "always",
+	"editor.codeLensFontSize": 8,
+	"workbench.colorTheme": "Default Dark+",
+	"[json]": {
+		"editor.autoClosingBrackets": "always",
+		"editor.autoClosingQuotes": "always"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar",
+		"typescript.preferences.importModuleSpecifier": "shortest",
+		"emmet.triggerExpansionOnTab": true
+	},
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		// This is Default.
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": null
+		}
+		// You can add more
+		// {
+		//   "format": "compressed",
+		//   "extensionName": ".min.css",
+		//   "savePath": null
+		// }
+	],
+	"files.exclude": {
+		"**/public": true,
+		"**/node_modules": true
+		// "**/components/Acordion": true,
+		// "**/components/Tabs": true,
+		// "**/components/Page": true,
+		// "**/Test/TestAccordion.vue": true,
+		// "**/Test/TestPage.vue": true,
+		// "**/Test/TestModal.vue": true,
+		// "**/Test/TestTabs.vue": true
+	},
+	"editor.folding": true,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/*.code-search": true,
+		"*.*": true
+	},
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		"package.json": ".eslintrc.cjs,pnpm-lock.yaml,*.json,env.d.ts,readme.md,vite.config.ts"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "misterj.vue-volar-extention-pack",
+    "vue.vscode-typescript-vue-plugin",
+    "ms-vscode.vs-keybindings",
+    "pkief.material-icon-theme",
+    "tyriar.windows-terminal",
+    "zhuangtongfa.material-theme",
+    "seyyedkhandon.firacode"
+  ],
+}

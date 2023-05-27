@@ -1,0 +1,6 @@
+@use "sass:math";
+@for $i from 1 to 25 {
+  .is-#{$i} {
+    width: math.div($i, 24) * 99.99%;
+  }
+}
