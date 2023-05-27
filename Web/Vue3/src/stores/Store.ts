@@ -212,10 +212,11 @@ export const useStore = defineStore('Store', () => {
 	}
 	async function PurgeRecord(i: number): Promise<void> {
 		// Hard Delete Record
-		// let index = DelData.value.findIndex(e => e.Id == DelSortedData.value[i].Id)
+		let index = DelData.value.findIndex(e => e.Id == DelSortedData.value[i].Id)
 		await PostAsync('StudentDelete', DelSortedData.value[i])
-		// DelData.value.slice(index)
-		await GetAllRecords()
+		DelData.value.splice(index, 1)
+		DelSortData()
+		// await GetAllRecords()
 	}
 	//#endregion
 
