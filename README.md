@@ -17,4 +17,8 @@ Run the Project.sln and in the same terminal run,
 
 And open the localhost link provided within the terminal.
 
+For the DB, it is located in .\Tools\DB
+
+You can delete the DB in Server Explorer and run the project again and it will build a new one.
+
 
