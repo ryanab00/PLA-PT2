@@ -15,6 +15,6 @@ Run the Project.sln and in the same terminal run,
 
 `npm run dev`
 
-And press open the localhost link provided within the terminal.
+And open the localhost link provided within the terminal.
 
 
